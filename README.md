@@ -20,7 +20,7 @@ A contract lifecycle management application built with React and TypeScript. Cre
 
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/ContractDesk.git
+git clone https://github.com/ANONYMOUS-0007/ContractDesk.git
 cd ContractDesk
 
 # Install dependencies
@@ -179,4 +179,4 @@ git commit -m "refactor: extract reusable modal component"
 ---
 
 **Author:** Shah Faisal  
-**License:** MIT
+
