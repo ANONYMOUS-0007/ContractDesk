@@ -1,0 +1,18 @@
+.app-layout {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    margin-top: auto;
+    padding: var(--space-8) 0;
+    border-top: 1px solid var(--border-subtle);
+    background: var(--bg-surface);
+}
+
+.footer-text {
+    text-align: center;
+    font-size: var(--text-sm);
+    color: var(--text-tertiary);
+}

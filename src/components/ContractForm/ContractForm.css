@@ -1,0 +1,103 @@
+.contract-form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-6);
+}
+
+.form-locked-banner {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    padding: var(--space-4);
+    background: var(--bg-surface-secondary);
+    border: 1px solid var(--border-default);
+    border-radius: var(--radius-lg);
+    font-size: var(--text-sm);
+    color: var(--text-secondary);
+}
+
+.form-fields {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-5);
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+}
+
+.form-field-label {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    font-size: var(--text-sm);
+    font-weight: var(--font-medium);
+    color: var(--text-primary);
+}
+
+.form-field-icon {
+    color: var(--color-primary-500);
+}
+
+.checkbox-label {
+    font-size: var(--text-sm);
+    color: var(--text-secondary);
+}
+
+/* Signature Field */
+.signature-field {
+    background: var(--bg-surface-secondary);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-lg);
+    padding: var(--space-5);
+}
+
+.signature-canvas-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+}
+
+.signature-canvas {
+    width: 100%;
+    max-width: 400px;
+    height: 150px;
+    background: var(--bg-surface);
+    border: 1px dashed var(--border-default);
+    border-radius: var(--radius-lg);
+    cursor: crosshair;
+}
+
+.signature-actions {
+    display: flex;
+    gap: var(--space-2);
+    justify-content: flex-end;
+}
+
+.signature-preview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-3);
+}
+
+.signature-image {
+    max-width: 100%;
+    max-height: 100px;
+    border-radius: var(--radius-lg);
+}
+
+.signature-placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-3);
+    padding: var(--space-8);
+    color: var(--text-muted);
+}
+
+.signature-placeholder span {
+    font-size: var(--text-sm);
+}
